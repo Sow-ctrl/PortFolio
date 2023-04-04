@@ -1,0 +1,34 @@
+a {
+    display: inline-block;
+    width: 30px;
+    text-decoration: none;
+    
+  }
+  
+  nav, .scroll-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: antiquewhite;
+  }
+  
+  nav {
+    width: 309px;
+    padding: 5px;
+    border: 1px solid rgb(199, 6, 6);
+  }
+  
+  .scroll-container {
+    width: 390px;
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  .scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5em;
+  }
